@@ -56,6 +56,32 @@ img{
     border-color: #fff;
  
 }
+@media (max-width:500px){
+   
+    a.navbar-brand {
+        position: absolute;
+        top: -22px;
+        left:-32px;
+        float: left;
+        width: 50%;
+        } 
+        a.navbar-brand img{
+            
+             margin-left: 64px; 
+             width: 40%;
+          
+            
+          
+            }
+            .navbar-toggle {
+                display: inline-block;
+                position: relative;
+                float: right;
+             
+           }
+                 
+
+}
 
 @media (min-width:500px){
    
@@ -168,6 +194,13 @@ position: relative;
 
 .intro .food{
  padding-top: 60px;
+}
+@media (max-width:500px){
+    .intro .food img{
+        width: 100%;
+        
+       }
+      
 }
 @media (min-width:575px){
     .intro .food{
@@ -622,6 +655,7 @@ margin-top: 10px;
     }
     } 
     */
+  
     
    @media only screen and (max-width: 1165px){
        .mg-botom{
@@ -687,7 +721,7 @@ margin-top: 10px;
     }
 }  */
 
-@media screen and (max-width: 500px){
+@media only screen and (max-width: 500px){
     .mg-botom{
         margin-bottom: 52px;
        
@@ -697,8 +731,8 @@ margin-top: 10px;
         position: relative;
     }
     .team .team-item{
-        top: 578px;
-        width: 300px;
+     top:506px;
+     width: 300px;
      position: absolute;
     }
 }
@@ -757,6 +791,15 @@ font-weight: bold;
        font-family: 'Josefin Sans', sans-serif;
        color: #000;
    }
+   @media (max-width:500px){
+    .reservation{
+        width: 100%;
+    }
+    .reservation .res-item{
+        width: 390px;
+        }
+}
+
    @media (min-width:575px){
     .reservation{
         width: 100%;
